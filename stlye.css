@@ -73,7 +73,7 @@ header{
     justify-content: space-around;
     align-items: center;
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 30px auto;
     background-color: #feeeed;
     border: 1px solid yellowgreen;
     border-radius: 20px;
@@ -117,3 +117,42 @@ header{
     line-height: 100%;
 }
 /* bennar section end */
+
+/* Categories section start */
+.Categories{
+    background-color: #fff4f4;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px 10px 20px 20px;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+.Categories-1 h1{
+    background-color: antiquewhite;
+    margin-top: -50px;
+    border-radius: 0px 0px 2px 12px;
+    padding: 20px;
+    color: #790202;
+}
+.Categories-2{
+    display: flex;
+    gap: 25px;
+}
+.Categories-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #df90b7;
+    width: 100%;
+    border-radius: 15px 30px 15px 30px;
+}
+.Categories-3 img{
+    height: 100px;
+    width: 120px;
+}
+.Categories-3 h1{
+    color: #fbdfdf;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* Categories section end */
