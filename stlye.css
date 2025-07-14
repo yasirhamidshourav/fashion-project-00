@@ -1,0 +1,66 @@
+/* font  */
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* header section start */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-1{
+    display: flex;
+    align-items: center;
+}
+.header-1 img{
+  height: 60px;
+  width: 120px;
+}
+.header-1 h1{
+  font-size: 30px;
+  font-weight: 500;
+  color: #1F1F1F;
+}
+.header-2{
+    position: relative;
+}
+.header-2 input{
+    border: none;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    color: CCCCCC;
+    font-style: italic;
+    padding: 15px 30px;
+    width: 600px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.header-2 i{
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    color: #BABABA;
+}
+.header-3 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+.header-3 li{
+    list-style: none;
+}
+.header-3 a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+/* header section end */
