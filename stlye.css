@@ -12,6 +12,8 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #fff4f4;
+    border-radius: 0px 0px 20px 20px;
 }
 .header-1{
     display: flex;
@@ -31,7 +33,7 @@ header{
 }
 .header-2 input{
     border: none;
-    background-color: #F1F1F1;
+    background-color: #fffdfd;
     border-radius: 20px;
     color: CCCCCC;
     font-style: italic;
@@ -64,3 +66,54 @@ header{
     font-family: "Poppins", sans-serif;
 }
 /* header section end */
+
+/* bennar section start */
+.bennar-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 10px auto;
+    background-color: #feeeed;
+    border: 1px solid yellowgreen;
+    border-radius: 20px;
+}
+.bennar-section-1 img{
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+}
+.bennar-section-2 {
+    padding: 20px;
+}
+.bennar-section-2 h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1F1F1F;
+    font-family: "Poppins", sans-serif;
+}
+.bennar-section-2 h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #FF136F;
+    font-family: "Poppins", sans-serif;
+    line-height: 100%;
+}
+.bennar-section-2 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+    font-family: "Inter", sans-serif;
+}
+.bennar-section-2 button{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    background-color: #FF589B;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 20px;
+    line-height: 100%;
+}
+/* bennar section end */
